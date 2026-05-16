@@ -10,9 +10,9 @@ films = [
     'Проклятый остров', 'Начало', 'Матрица'
 
 ]
-quantity = int(input('Сколько фильмов хотите добавить? '))
+quantity = int(input('Сколько фильмов хотите добавить? ')) #Нужно разобрать это все на удобные функии
 my_list = []
-while len(my_list) < quantity:
+while len(my_list) < quantity: 
         print('Ваш текущий топ фильмов:', my_list)
         name_films = input('Введите название фильма: ')
         if name_films in films:
